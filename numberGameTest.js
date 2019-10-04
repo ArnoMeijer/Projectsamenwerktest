@@ -26,7 +26,7 @@ const readline = require('readline').createInterface({
     // Zeg dag tegen je gebruiker en bedankt voor het spelen
     readline.close()
   }
-  const checkInputFromUser = function(inputFromUser){
+
     //Check of de gebruiker input (inputFromUser) het juiste nummer heeft geraden.
     // Zo ja: feliciteer de gebruiker en ga dan door naar endGame functie
     // Zo nee: vraag nog een keer om input van de gebruiker met de getNumberFromUser functie
@@ -36,7 +36,7 @@ const readline = require('readline').createInterface({
     // Is inputFromUser van het type number? Hoe kun je dat checken?
     // Zo nee, hoe kun je dat veranderen? Zodat je de vergelijking met je if-statement goed kunt uitvoeren?
     // Is numberToBeGuessed van het type number?
-  }
+
   const getNumberInputFromUser = function() {
     readline.question(`Voer een nummer in...`, (number) => {
         console.log("Je raadde dit nummer:", number)
